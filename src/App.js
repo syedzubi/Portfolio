@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Layout, Navigation, Drawer, Header, Content } from "react-mdl";
+import Main from "./components/main";
+import { Link } from "react-router-dom";
 
 export class App extends Component {
   render() {
@@ -8,22 +10,23 @@ export class App extends Component {
         <Layout>
           <Header title='Title' scroll>
             <Navigation>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
+              <Link to='/aboutme'>About Me</Link>
+              <Link to='/projects'>Projects</Link>
+              <Link to='/contact'>Contact</Link>
+              <Link to='/resume'>Resume</Link>
             </Navigation>
           </Header>
           <Drawer title='Title'>
             <Navigation>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
-              <a href='#'>Link</a>
+              <Link to='/aboutme'>About Me</Link>
+              <Link to='/projects'>Projects</Link>
+              <Link to='/contact'>Contact</Link>
+              <Link to='/resume'>Resume</Link>
             </Navigation>
           </Drawer>
           <Content>
             <div className='page-content' />
+            <Main />
           </Content>
         </Layout>
       </div>
