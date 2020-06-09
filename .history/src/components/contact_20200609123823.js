@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Grid, Cell } from "react-mdl";
 /*import zubair from "./sample_image.jpg";*/
 export class contact extends Component {
   render() {
@@ -24,24 +24,6 @@ export class contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <div className='contact-list'>
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-github-square' aria-hidden='true'></i>
-                    Bryan Cranston
-                  </ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent icon='person'>Aaron Paul</ListItemContent>
-                </ListItem>
-                <ListItem>
-                  <ListItemContent icon='person'>Bob Odenkirk</ListItemContent>
-                </ListItem>
-              </List>
-            </div>
           </Cell>
         </Grid>
       </div>

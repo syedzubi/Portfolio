@@ -27,10 +27,7 @@ export class contact extends Component {
             <div className='contact-list'>
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-github-square' aria-hidden='true'></i>
+                  <ListItemContent icon='person'>
                     Bryan Cranston
                   </ListItemContent>
                 </ListItem>
