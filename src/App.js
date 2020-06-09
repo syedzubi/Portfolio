@@ -9,7 +9,15 @@ export class App extends Component {
     return (
       <div className='demo-big-content'>
         <Layout>
-          <Header className='header-color' title='Syed Zubair Portfolio' scroll>
+          <Header
+            className='header-color'
+            title={
+              <Link style={{ textDecoration: "none", color: "white" }} to='/'>
+                Syed Zubair PortFolio{" "}
+              </Link>
+            }
+            scroll
+          >
             <Navigation>
               <Link to='/aboutme'>About Me</Link>
               <Link to='/projects'>Projects</Link>
@@ -17,7 +25,13 @@ export class App extends Component {
               <Link to='/resume'>Resume</Link>
             </Navigation>
           </Header>
-          <Drawer title='Title'>
+          <Drawer
+            title={
+              <Link style={{ textDecoration: "none", color: "black" }} to='/'>
+                My PortFolio{" "}
+              </Link>
+            }
+          >
             <Navigation>
               <Link to='/aboutme'>About Me</Link>
               <Link to='/projects'>Projects</Link>
