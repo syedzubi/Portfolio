@@ -22,14 +22,14 @@ export class projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className='projects-grid'>
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ Width: "100%", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "170px",
                 background:
                   "url(https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg) center / cover",
-                padding: "1em",
+                padding: "5em",
               }}
             >
               GitHub User Finder Project

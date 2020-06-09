@@ -29,7 +29,61 @@ export class projects extends Component {
                 height: "170px",
                 background:
                   "url(https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg) center / cover",
-                padding: "1em",
+                padding: "5em",
+              }}
+            >
+              GitHub User Finder Project
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem quas praesentium perspiciatis, cumque quae ex
+              nesciunt non quidem dolore error. Voluptatibus numquam consequatur
+              sequi animi? Fuga, molestiae repudiandae. Iusto, corporis?
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "170px",
+                background:
+                  "url(https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg) center / cover",
+                padding: "5em",
+              }}
+            >
+              GitHub User Finder Project
+            </CardTitle>
+            <CardText>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem quas praesentium perspiciatis, cumque quae ex
+              nesciunt non quidem dolore error. Voluptatibus numquam consequatur
+              sequi animi? Fuga, molestiae repudiandae. Iusto, corporis?
+            </CardText>
+            <CardActions border>
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name='share' />
+            </CardMenu>
+          </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "170px",
+                background:
+                  "url(https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg) center / cover",
+                padding: "5em",
               }}
             >
               GitHub User Finder Project

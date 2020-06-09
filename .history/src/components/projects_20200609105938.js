@@ -21,7 +21,7 @@ export class projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className='projects-grid'>
+        <div>
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -29,7 +29,7 @@ export class projects extends Component {
                 height: "170px",
                 background:
                   "url(https://portswigger.net/cms/images/54/14/6efb9bc5d143-article-190612-github-body-text.jpg) center / cover",
-                padding: "1em",
+                padding: "5em",
               }}
             >
               GitHub User Finder Project
@@ -87,7 +87,7 @@ export class projects extends Component {
           <Tab>Advanced Database</Tab>
           <Tab>Topics in Applied AI</Tab>*/}
         </Tabs>
-        <Grid>
+        <Grid className='projects-grid'>
           <Cell col={12}>
             <div className='content'>{this.toggleCategories()}</div>
           </Cell>
