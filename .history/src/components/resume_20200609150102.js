@@ -45,15 +45,6 @@ export class resume extends Component {
                 "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis error voluptate dolor libero!?"
               }
             />
-            <Education
-              startYear={2019}
-              endYear={2020}
-              schoolName={"University of Windsor"}
-              schoolDescription={
-                "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis error voluptate dolor libero!?"
-              }
-            />
-            />
           </Cell>
         </Grid>
       </div>

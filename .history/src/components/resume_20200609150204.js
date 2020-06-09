@@ -46,9 +46,9 @@ export class resume extends Component {
               }
             />
             <Education
-              startYear={2019}
-              endYear={2020}
-              schoolName={"University of Windsor"}
+              startYear={2012}
+              endYear={2016}
+              schoolName={"Visvesvaraya Technological University"}
               schoolDescription={
                 "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis error voluptate dolor libero!?"
               }
