@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
-import Skills from "./skills";
 export class resume extends Component {
   render() {
     return (
       <div className='class1'>
         <Grid>
           <Cell col={4}>
-            <div style={{ textAlign: "Center" }}>
+            <div style={{ textAlign:s "Center" }}>
               <img
                 src='https://www.shareicon.net/data/512x512/2017/07/13/888372_man_512x512.png'
                 alt='Avatar'
@@ -63,12 +62,6 @@ export class resume extends Component {
               jobName='Software Engineer'
               jobDescription='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe sapiente iusto ipsam perferendis sequi perspiciat'
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
-            <h2>My Skills</h2>
-            <Skills skill='HTML/CSS' progress={100} />
-            <Skills skill='JavaScript' progress={75} />
-            <Skills skill='Node.js' progress={50} />
-            <Skills skill='React.js' progress={25} />
           </Cell>
         </Grid>
       </div>

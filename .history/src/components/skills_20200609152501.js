@@ -1,0 +1,17 @@
+import React, { Component } from "react";
+import { Grid, Skill } from "react-mdl";
+export class skills extends Component {
+  render() {
+    return (
+      <Grid>
+        <Cell col={12}>
+          <div>
+            <h1>these are my skill</h1>
+          </div>
+        </Cell>
+      </Grid>
+    );
+  }
+}
+
+export default skills;
