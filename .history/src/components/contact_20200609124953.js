@@ -31,24 +31,14 @@ export class contact extends Component {
                     style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
                     <i className='fa fa-phone-square' aria-hidden='true'></i>
-                    (647)863-9043
+                    Bryan Cranston
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-envelope' aria-hidden='true'></i>
-                    zubai113@uwindsor.ca
-                  </ListItemContent>
+                  <ListItemContent icon='person'>Aaron Paul</ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-skype' aria-hidden='false'></i>
-                    linkedin/s27
-                  </ListItemContent>
+                  <ListItemContent icon='person'>Bob Odenkirk</ListItemContent>
                 </ListItem>
               </List>
             </div>

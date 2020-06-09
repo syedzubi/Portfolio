@@ -46,8 +46,8 @@ export class contact extends Component {
                   <ListItemContent
                     style={{ fontSize: "25px", fontFamily: "Anton" }}
                   >
-                    <i className='fa fa-skype' aria-hidden='false'></i>
-                    linkedin/s27
+                    <i className='fa fa-linkedin-square' aria-hidden='true'></i>
+                    (647)863-9043
                   </ListItemContent>
                 </ListItem>
               </List>

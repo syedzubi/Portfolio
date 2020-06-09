@@ -35,20 +35,10 @@ export class contact extends Component {
                   </ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-envelope' aria-hidden='true'></i>
-                    zubai113@uwindsor.ca
-                  </ListItemContent>
+                  <ListItemContent icon='person'>Aaron Paul</ListItemContent>
                 </ListItem>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    <i className='fa fa-skype' aria-hidden='false'></i>
-                    linkedin/s27
-                  </ListItemContent>
+                  <ListItemContent icon='person'>Bob Odenkirk</ListItemContent>
                 </ListItem>
               </List>
             </div>

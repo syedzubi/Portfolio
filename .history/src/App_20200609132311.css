@@ -69,12 +69,12 @@
   color: black;
   margin-bottom: 20px;
 }
-
+/*Resume Page */
 .resume-right-col {
-  background: #27221f;
+  background: 27221f;
   color: white;
 }
-
+/*Contact Page */
 .contact-grid h2 {
   font-family: "Anton", sans-serif;
   padding-right: 1em;

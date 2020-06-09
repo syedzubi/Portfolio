@@ -70,11 +70,6 @@
   margin-bottom: 20px;
 }
 
-.resume-right-col {
-  background: #27221f;
-  color: white;
-}
-
 .contact-grid h2 {
   font-family: "Anton", sans-serif;
   padding-right: 1em;
@@ -93,6 +88,6 @@
 
 .contact-list i {
   font-size: 66px;
-  padding-right: 3em;
+  padding-right: 1em;
   justify-content: center;
 }
